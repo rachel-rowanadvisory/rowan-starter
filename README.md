@@ -30,10 +30,21 @@ a proposal). Those are personal. This bundles the shape, not the contents.
 
 ## Install
 
-Point a plugin marketplace at this folder, or drop it under your Claude Code plugins
-path and enable `rowan-starter`. The hooks resolve their own location via
-`${CLAUDE_PLUGIN_ROOT}`. Then edit the message in `session-context.sh` to your own
-words. That one line is the whole personalisation.
+In Claude Code:
+
+```
+/plugin marketplace add rachel-rowanadvisory/rowan-starter
+/plugin install rowan-starter@rowan-starter
+```
+
+That's it — Claude Code loads the three hooks and the setup skill. The hooks resolve
+their own location via `${CLAUDE_PLUGIN_ROOT}`, so they work wherever the plugin lives.
+
+Then edit the message in `session-context.sh` to your own words. That one line is the
+whole personalisation.
+
+To update later: `/plugin marketplace update rowan-starter`. To remove:
+`/plugin marketplace remove rowan-starter`.
 
 ## Licence
 
