@@ -1,0 +1,6 @@
+{
+  "name": "rowan-starter",
+  "version": "0.2.0",
+  "description": "A working Claude Code setup, packaged. The lean-OS pattern + two self-improving hooks (start-load, stop-reflect) + a boundary guard that asks before you publish + one setup skill. Hand it to a collaborator or a cohort so the method isn't tribal: they inherit the harness on day one instead of rebuilding it.",
+  "author": { "name": "Rowan Advisory", "url": "https://rowanadvisory.co.nz" }
+}
