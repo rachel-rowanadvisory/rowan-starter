@@ -1,0 +1,15 @@
+{
+  "name": "rowan-starter",
+  "owner": {
+    "name": "Rowan Advisory",
+    "email": "rachel@rowanadvisory.co.nz"
+  },
+  "description": "Rowan Starter — a working Claude Code setup, packaged so you inherit the harness on day one instead of rebuilding it.",
+  "plugins": [
+    {
+      "name": "rowan-starter",
+      "source": "./",
+      "description": "The lean-OS pattern, two self-improving hooks (start-load, stop-reflect), a publish guard that asks before you go public, and one substrate-setup skill. Free (MIT)."
+    }
+  ]
+}
